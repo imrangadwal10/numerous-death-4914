@@ -1,3 +1,100 @@
+#navbox{
+   display: flex;
+   position: fixed;
+   top: 0px; 
+   width: 100%;
+   background: white;
+   height: 53px;
+}
+#search{
+   display: flex;
+   height: 70%;
+    width: 10%;
+    margin-right: 80px;
+}
+#search>input{
+   font-size: 15px;
+   height: 32px;
+   width: 180px;
+   margin-top: 5px;
+}
+#search>img{
+   margin-right: 35px;
+   width: 40%;
+   height: 48%;
+   margin-top: 5px;
+   background-color: #1095DC;
+   color: white;
+   padding: 10px 5px 10px 5px;
+}
+
+#navbar{
+   display: flex;
+   font-family: arial,verdana,sans-serif;  
+}
+#navbar>a>img{
+    width: 100%; 
+    margin-top: 7px;
+    
+}
+#navbar>p{
+    font-weight: lighter;  
+    margin-left: 60px;
+  
+}
+#navbar>a{
+    width: 16%;
+}
+#main>div>img{
+    width: 100%;
+    margin-top: 40px;
+   
+}
+#main{
+   background-color: rgb(234, 235, 236); 
+   padding-bottom: 20px;
+}
+#section_1{ 
+    width: 100%;
+}
+#section_1>div{
+   font-family: arial,verdana,sans-serif;
+  width: 67%;
+  margin: auto;
+  
+}
+
+ a:hover{
+     cursor: pointer;
+ }
+ button:hover{
+    cursor: pointer;
+ }
+ #section_1>div>div>a{
+    border: 1px solid #1095DC;
+    background: #1095DC;
+    padding: 15px 15px 15px 15px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;  
+    margin: auto;  
+ }
+ #section_1>div>div{
+    text-align: center;
+  
+ }
+ #section_1>div>h2+p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+ }
+ #section_1>div>p:last-child{
+    margin-top: 70px;
+    font-size: 15px;
+ }
+ 
  #section_2{
    width: 67%;
    margin: auto;
