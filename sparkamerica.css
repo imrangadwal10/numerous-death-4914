@@ -1,6 +1,170 @@
 *{
     font-family: sans-serif;
 }
+#logo>a>img{
+    display: block;
+    margin: auto;
+    width: 515px;
+    margin-top: 20px;
+}
+#navbar{
+    display: flex;
+    width: 55%;
+    margin: auto;
+    justify-content: space-between;
+    margin-right: 370px;
+    
+}
+#navbar>span:hover{
+  cursor: pointer;
+  color: red;
+}
+#navbar>span>a{
+    text-decoration: none;
+    color: black;
+}
+#navbar>span>a:hover{
+    cursor: pointer;
+    color: red; 
+}
+#navbar>img:hover{
+    cursor: pointer;
+}
+#soc{
+  display: flex;
+  margin-left: 190px;
+  border:  1px solid teal;
+ 
+  
+}
+#navbar>img{
+    width: 80px;
+    margin-top: -15px;
+    margin-right: -70px;   
+}
+#navbar+hr{
+    height: 1px;
+    background-color: red;
+    width: 63%;
+}
+#top_sec{
+    width: 70%;
+    margin: auto;
+    display: grid;
+}
+
+#top_sec>hr{
+    margin: 0;
+    height: 2px;
+    background-color: red;
+    width: 17%;
+    margin-right: 400px;
+}
+#top_sec>p:nth-child(1){
+    font-size: 30px;
+   font-weight: 100;
+}
+#top_sec>p:nth-child(3){
+    line-height: 1.5;
+}
+#mid1{
+  width: 65%;
+  margin: auto;
+  line-height: 1.5;
+
+}
+#mid1>hr{
+    margin: 0;
+    height: 2px;
+    background-color: red;
+    width: 17%;
+    margin-right: 400px;
+}
+#mid1>p{
+   margin-bottom: -13px;
+}
+#mid1>ul{
+   margin-left: -40px;
+}
+#select{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    
+   
+}
+#a,#z{
+    background-color: #C8102E;
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#a:hover,#z:hover{
+    background-color: orange;
+}
+option{
+    background-color: silver;
+    color: blue;
+}
+#btn{
+    border: 1px solid  red;
+    background-color: #C8102E;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 620px;
+    margin-top: 20px;
+}
+#btn:hover{
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+#mid2{
+    width: 69%;
+    margin: auto;
+}
+#mid2>a>button{
+    background-color: #3d7cc9;
+    border: none;
+    margin: auto;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 377px;
+    border-radius: 5px;
+}
+#mid2>a>button:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+
+#mid2>hr{
+    margin: 0;
+    height: 2px;
+    background-color: red;
+    width: 17%;
+    margin-right: 400px;
+}
+#mid2>p{
+    line-height: 1.5;
+} 
+#mid2>p>b{
+    color: #3d7cc9;
+}
+#mid2>p>b:hover{
+    cursor: pointer;
+    color: grey;
+}
 #mid2{
     width: 69%;
     margin: auto;
