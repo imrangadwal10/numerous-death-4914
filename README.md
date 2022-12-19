@@ -1,4 +1,4 @@
-# SparkAmerica
+# SparkAmerica-Clone
 
  <image src="https://i.ibb.co/1M7jS1Y/sparkpeople.png"></image>
 
