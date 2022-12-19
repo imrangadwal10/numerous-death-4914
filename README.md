@@ -4,6 +4,7 @@
 
 # Description :
 SparkPeople was an American private company which developed and maintained several healthy living websites and mobile apps. 
+SparkAmerica brings people, organizations, and cities together on a single tech platform to participate in our free and fun annual calendar of challenges that encourage individual achievement while driving participation in friendly competition.
 
 
 # Netlify Link
